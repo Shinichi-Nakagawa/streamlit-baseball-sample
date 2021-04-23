@@ -1,0 +1,8 @@
+version: "3.0"
+services:
+  app:
+    build: .
+    ports:
+      - 8000:8501
+    container_name: streamlit_sample
+    command: [ "streamlit", "run", "sample_app.py" ]
