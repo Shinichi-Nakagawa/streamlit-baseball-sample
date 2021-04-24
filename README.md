@@ -22,6 +22,18 @@ $ source venv/bin/activate
 (venv) $ stremlit run sample_app.py
 ```
 
+### Docker
+
+```bash
+docker-compose -f docker-compose-local.yml up
+```
+
+### Cloud Run(for GCP)
+
+```bash
+sh gcp_deploy.sh ${your project name}
+```
+
 # Maintainer
 
 [@shinyorke(Shinichi-Nakagawa)](https://github.com/Shinichi-Nakagawa)
